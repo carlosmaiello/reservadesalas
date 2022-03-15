@@ -95,6 +95,24 @@ export default {
                 {
                     id: 3,
                     nome: "Sala 3",
+                     alocacoes: [
+                        {
+                            id: 1,
+                            data: new Date(2022, 2, 10),
+                            periodo: {
+                                id: 1,
+                                nome: "Manhã"
+                            }
+                        },
+                        {
+                            id: 2,
+                            data: new Date(2022, 2, 20),
+                            periodo: {
+                                id: 1,
+                                nome: "Manhã"
+                            }
+                        }
+                    ]
                 },
             ],
         };
